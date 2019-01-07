@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="resolver-test-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
+
+    <feature name="bundlea" version="${project.version}">
+        <bundle>mvn:net.nanthrax.test/bundlea/${project.version}</bundle>
+    </feature>
+
+    <feature name="bundleb" version="${project.version}">
+        <bundle>mvn:net.nanthrax.test/bundleb/${project.version}</bundle>
+    </feature>
+
+    <feature name="bundlec" version="${project.version}">
+        <bundle>mvn:net.nanthrax.test/bundlec/${project.version}</bundle>
+    </feature>
+
+</features>
